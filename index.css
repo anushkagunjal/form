@@ -1,0 +1,117 @@
+.contact {
+    position: relative;
+    width: 100%;
+    padding: 5px 0;
+}
+.contact .contact-form {
+    position: relative;
+    padding: 0 ;
+}
+.contact .col-md-6 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.contact .col-md-6:first-child {
+    background: #030f27;
+}
+.contact .col-md-6:last-child {
+    background: #ffb84d;
+}
+.contact .contact-form {
+    position: relative;
+    padding: 0 15px;
+}
+.contact .contact-form input {
+    color: white;
+    height: 40px;
+    width: 50%;
+    font-size: 14px;
+    border-radius: 0;
+    border-width: 1px;
+    border-color: rgba(256, 256, 256, .4);
+    background: transparent;
+}
+.contact .contact-form textarea {
+    color: black;
+    height: 150px;
+    border-radius: 0;
+    width: 50%;
+    border-width: 1px;
+    border-color: rgba(256, 256, 256, .4);
+    background: transparent;
+}
+.contact .contact-form input:focus,
+.contact .contact-form textarea {
+    box-shadow: none;
+}
+.contact .contact-form .form-control::placeholder {
+  color: #ffffff;
+  opacity: 1;
+}
+.contact .contact-form .btn {
+    padding: 16px 30px;
+    margin: 13PX;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffb84d;
+    background: #030f27;
+    border: none;
+    border-radius: 0;
+    transition: .3s;
+}
+.contact .contact-form .btn:hover {
+    color: #030f27;
+    background: #ffffff;
+}
+.text-center{
+  text-align: center;
+}
+p{
+    color: #ffb84d;
+    font-size: 25px;
+    margin-bottom: 0;
+    font-weight: 800;
+}
+h1{
+    font-size: 50px;
+    margin-top: 0;
+    font-weight: 600;
+}
+.text{
+    color: black;
+
+}
+.file{
+    margin-top: 7px;
+}
+.select{
+    color: rgb(97, 95, 95);
+    height: 40px;
+    width: 50%;
+    border-radius: 0;
+    border-width: 1px;
+    border-color: rgba(256, 256, 256, .4);
+    background: transparent; 
+    opacity: 1;
+}
+.select option{
+ background-color: white;
+}
+::selection{
+    background-color: white;
+}
+.radio-input{
+    color: white;
+    width: 10px;
+    height: 10px;
+}
+.time{
+    color:rgb(97, 95, 95) ;
+}
+.text1{
+    color: black;
+    margin-top: 0px;
+}
+.text-file{
+    margin-top: 0;
+}

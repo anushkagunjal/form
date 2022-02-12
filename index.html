@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+     
+    <div class="container contact">
+        <div class="section-header text-center">
+            <p>Get In Touch</p>
+            <h1>Form Preview</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="contact-form">
+                  <form>
+                        <div>
+                            <p>Name</p>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                       </div>
+                        <div>
+                            <p>Email</p>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                      </div>
+                        <div>
+                            <p>Contact</p>
+                            <input type="text" class="form-control" id="contact" placeholder="Contact" maxlength="10" required="required" data-validation-required-message="Please enter your contact" />
+                      </div>
+                      <div>
+                            <p>Birthdate</p>
+                            <input type="date" class="form-control" id="birthdate" placeholder="birthdate"required="required" data-validation-required-message="Please enter your birthdate" />
+                      </div>
+                      <div>
+                         <p>Departure Date & time</p>
+                         <input type="datetime-local" class="form-control" id="datetime-local" required="required" data-validation-required-message="Please enter your details" />
+                     </div>
+                     <div>
+                         <p>Return Date & time</p>
+                         <input type="datetime-local" class="form-control" id="datetime-local" required="required" data-validation-required-message="Please enter your details" />
+                     </div>
+                     <div>
+                         <p>Fitness Range (between 0 & 5)</p>
+                         <input type="range" id="vol" name="vol" min="0" max="5" >
+                     </div>
+                     <div>
+                         <p class="text-file">Upload Passport</p>
+                         <input type="file" class="form-control file" id="myfile" required="required" data-validation-required-message="upload your documnets" />
+                     </div>
+                 </form>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="contact-form">
+                   <form>
+                        <div>
+                            <p class="text1">Departure Country</p>
+                            <select class="select">
+                                <option class="text">Select</option>
+                                <option class="text">India</option>
+                                <option class="text">Australia</option>
+                                <option class="text">America</option>
+                                <option class="text">France</option>
+                                <option class="text">China</option>
+                                <option class="text">Spain</option>
+                                <option class="text">Russia</option>
+                                <option class="text">Maldives</option>
+                                <option class="text">Singapore</option>
+                                <option class="text">Nepal</option>
+                            </select>
+                        </div>
+                        <div>
+                            <p class="text">Destination Country</p>
+                            <select class="select">
+                                <option class="text">Select</option>
+                                <option class="text">India</option>
+                                <option class="text">Australia</option>
+                                <option class="text">America</option>
+                                <option class="text">France</option>
+                                <option class="text">China</option>
+                                <option class="text">Spain</option>
+                                <option class="text">Russia</option>
+                                <option class="text">Maldives</option>
+                                <option class="text">Singapore</option>
+                                <option class="text">Nepal</option>
+                            </select>
+                        </div>
+                        <div>
+                            <p class="text">Preferred Hotel Brand</p>
+                            <input type="text" class="text" id="name" placeholder="Your Hotel Brand" required="required" data-validation-required-message="Please enter your hotel name" />
+                      </div>
+                      <div>
+                            <p class="text">Preferred Airline</p>
+                            <input type="text" class="text" id="name" placeholder="Your Preferred Airline" required="required" data-validation-required-message="Please enter your Airline name" />
+                       </div>
+                      <div>
+                            <p class="text">Class of Service</p>
+                            <select class="select">
+                                <option class="text">Select</option>
+                                <option class="text">Economy Class</option>
+                                <option class="text">Buisness Class</option>
+                                <option class="text">First Class</option>
+                            </select>
+                        </div>
+                      <div>
+                            <p class="text">Additional information</p>
+                            <textarea class="text" id="message" placeholder="Write Additional information" required="required" data-validation-required-message="Please enter your message"></textarea>
+                      </div>
+                      <div>
+                            <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+   </div>
+
+    
+
+</body>
+</html>
